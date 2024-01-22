@@ -1,0 +1,35 @@
+
+<div class="popup_container" id="popupMini">
+    <div class="popup_close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>                  
+    </div>
+    <div>
+        <center>
+            <h1>
+                Войти в учётную запись
+            </h1>
+        </center>
+    </div>
+    <form method="post" action="/API/account/login">
+        <div class="form_content">
+            <label for="popupEmail" class="formLabel">email</label>
+            <input type="email" name="email" id="popupEmail" autocomplete="off" class="input">
+        </div>
+        <div class="form_content">
+            <label for="popupPWD" class="formLabel">пароль</label>
+            <input type="password" name="password" autocomplete="off" id="popupPWD" class="input">
+        </div>
+        <div class="flex ai-c">
+            <button class="button">
+                Войти
+            </button>
+            <span id="Oka0a">
+                ...или
+                <a href="/account/new">создать аккаунт</a>
+            </span>
+        </div>
+    </form>
+</div>
+<script>document.querySelector('#JSLoader').remove();</script>

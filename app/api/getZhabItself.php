@@ -1,0 +1,1 @@
+<?php Zhabs::GetZhabItself($_POST['id']) ?>

@@ -1,0 +1,1 @@
+<?Zhabs::getAllZhabsByUID($_POST['userid'], $_POST['lastid'])?>

@@ -1,0 +1,1 @@
+<?php Zhabs::getAllZhabs($_POST['lastid']); ?>

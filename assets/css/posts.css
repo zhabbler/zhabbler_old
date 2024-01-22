@@ -1,0 +1,119 @@
+#posts{margin:0 auto;width:fit-content;}
+#post{
+    display: flex;
+    padding: 20px;
+}
+#postAvatar{
+    display: block;
+    margin-right: 20px;
+    height: 64px;
+}
+#post #postAvatar img{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+}
+#post #postContent{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    color:#000;
+    width: 540px;
+}
+#post #postAuthor{
+    display: flex;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    align-items: center;
+    overflow: hidden;
+}
+.popup #postContent {
+  background: #fff !important;
+}
+#post #postAuthor *{
+    text-decoration: none;
+    font-size: 14px;
+}
+#post #postAuthor #postAuthorItself{
+    color:#000;
+    display: block;
+    margin-right:10px;
+}
+#post #postContent #postContentItself{
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    word-break: break-word;
+}
+#post #postContent #postContentItself h1{
+    font-size: 24px;
+    font-family: "Roboto Slab";
+    margin: 0;
+    margin-bottom: 10px!important;
+}
+#post #postContent #postInfo{
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 10px;
+    font-weight: 500;
+    border-top: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+}
+#post #postContent #postInfo #postInfoCounter{
+    color:#666;
+}
+#post #postContent #postInfo #postActionsItself{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+#post #postContent #postInfo #postActionsItself #postAction{
+    cursor: pointer;
+    margin-left:10px;
+}
+#post #postContent #postInfo #postActionsItself #postAction svg{
+    width: 28px;
+    stroke: #666;
+}
+#repost{
+    margin: 0 -20px;
+}
+#repost #postAuthor{
+    border-top: 1px solid #bbb;
+}
+ #repost #postAuthor #repostAvatar{
+    text-decoration-line: none;
+    display: block;
+    margin-right:10px;
+ }
+ #repost #postAuthor #repostAvatar img{
+    width:32px;
+    height:32px;
+    border-radius: 3px;
+ }
+#repostAvatarIcon{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #13b552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    margin: -4px;
+}
+#repostAvatarIcon svg{
+    fill:#fff;
+    width: 16px;
+}
+#post *{position:relative;}
+#repostAvatarIcon{position:absolute!important}

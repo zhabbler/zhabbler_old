@@ -1,0 +1,241 @@
+#application, .configTags, .configTags .configTagPlaceholder{
+    background-color: #242424!important;
+    color: #fff!important;
+}
+.popup form#postContent {
+    background: #242424 !important;
+}
+#sidebar #sidebarLogotype::before {
+    background: #fff!important;
+    background-size: 100% 100%!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+}
+#sidebar #sidebarLogotype:hover::before{
+    background: #eee!important;
+    background-size: 100% 100%!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+}
+.sidebarElementClicked *{color:#fff;}
+.sidebarElementClicked #sidebarElementIcon svg{
+    fill:#fff!important;
+}
+#sidebar #sidebarElement{
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+#sidebar #sidebarElement #sidebarElementIcon svg{
+    fill: rgba(255, 255, 255, 0.5)!important;
+}
+#sidebar #sidebarElement:hover{
+    background-color: rgba(255, 255, 255, 0.05)!important;
+}
+#tabs{
+    background: #242424!important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1)!important;
+}
+#tabs #tab:hover {
+    background-color: rgba(255, 255, 255, 0.1)!important;
+}
+#tab, #tab:hover, .tab_active, .tab_active:hover{
+    color: #fff!important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+}
+#mainContent{
+    border-left: 2px solid rgba(255, 255, 255, 0.1)!important;
+    border-right: 2px solid rgba(255, 255, 255, 0.1)!important;
+}
+.ui__LB22qZ__jXVScv, .ui__7wR1Vh__rL6nhO, .ui__tkLKli__ru06iM, .ui__qw455f__re0BWL{
+    background-color: rgba(255, 255, 255, 0.5)!important;
+}
+.ui__M570Qm__IMa6SK, .profile-mini-who-subscribe button{
+    color:#fff!important;
+}
+.ui__9YWdMP__5m113d{
+    color:#ccc!important;
+}
+.ui__U5ZaRx__6FTCsc{
+    background-color: #242424!important;
+    color:#fff!important;
+}
+.zhabTag, .ui__3nBVzS__nsTc1V:hover svg,.tagsInput {
+    filter: invert(1)!important;
+}
+.input__color {
+    border: 1px solid #303030!important;
+    background-color: #1b1b1b!important;
+}
+.input__colors {
+    background-color: #242424!important;
+    border: 1px solid #343434!important;
+}
+.ui__LLZhTv__fDdPEd{
+    color: #c6c6c6!important;
+}
+.profile-mini-who-subscribe, .profile-mini-who-subscribe *{
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+.ui__EX3GK5__aUxogf, .ui__EX3GK5__aUxogf span {
+    color: rgba(255,255,255,.3) !important;
+}
+.ui__EX3GK5__aUxogf a{
+    color: rgba(255,255,255,.5)!important;
+}
+.inputSrchBar{
+    background-color: #ffffff2e!important;
+    color: #fff!important;
+    background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, .5);"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>')!important;
+}
+.input {
+    background-color: #242424!important;
+    border: 2px solid #363636!important;
+    color:#fff!important;
+}
+.formLabel{
+    background-color: #242424!important;
+}
+.pmisbInfo span:first-child{
+    color:#fff!important;
+}
+#profileMoreInfoInSideBar hr{
+    background-color: rgba(255, 255, 255, 0.3)!important;
+}
+.profileInformationProfilePicture img{
+    border: 4px solid #242424!important;
+}
+.button.button_gray {
+    background-color: #666!important;
+    color: #dfdfdf!important;
+}
+.postH1Input{
+    color:#fff!important;
+    background-color: #242424!important;
+}
+div#PostContentTools, .popup .popup_container, .popup #post #postContent{
+    background-color: #242424!important;
+}
+#postContentInput, .popup .popup_container, #post #postAuthor #postAuthorItself{
+    color:#fff!important;
+}
+#post #postContent #postInfo{
+    border-top: 1px solid #444141!important;
+}
+#post #postContent, #postWriteReplyIDENT02, #postWriteReplyIDENT02 textarea{
+    background-color: #2b2b2b!important;
+    color:#fff!important;
+}
+#postWriteReplyIDENT02 button, .SysDropdown .SysDropdownElement{
+    background-color: #2b2b2b!important;
+    color:#fff!important;
+}
+.SysDropdownElement[style="color:#f00;"]{
+    color:#f00!important;
+}
+#post #postContent #ff0000FFF, #post #postContent #ff0000FFF *{
+    color:#fff!important;
+}
+.loading{
+    filter: invert(1);
+}
+.SysDropdown .SysDropdownElement:hover{
+    background-color: #1b1b1b!important;
+}
+.mobile_nav{
+    background-color: #242424!important;
+}
+.mobile_nav .mobile_nav_el svg{
+    fill: rgba(252, 252, 252, 0.5)!important;
+}
+@media only screen and (max-width: 900px) {
+    #sidebar, #options {background-color: #242424!important;}
+}
+.ProfileToolsEdit:hover .NeedsToHide{
+    filter: invert(1);
+}
+.ui__95CBnJ__c8MtHF, .ui__BvWmUQ__IpAxKw{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;
+}
+.sysDrop, .ui__3EvavR__gLKNOP{
+    color:#fff!important;
+    background-color: #303030!important;
+}
+.sysDrop .sysDropHeader, #navbar{border-bottom: 2px solid rgba(255, 255, 255, .2)!important;}
+#navbar{
+    background-color: #242424!important;
+}
+.navbarContentMain a:hover svg{
+    fill:#fff!important;
+}
+.ui__db2xDK__srFcPf span{
+    filter:invert(1);
+}
+.pmisbMR{color:#fff!important;}
+#NVLOg{
+    background: #fff!important;
+    background-size: 100% 100%!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+}
+#postReply #postReplyContainer{
+    background:#2b2b2b;
+    color:#fff;
+    border: 1px solid #555;
+}
+#postReply #postReplyContainer b a{
+    color:#eee!important;
+}
+#postReplyRemove svg{
+    fill:#eee;
+}
+.followed b, #MessageAppPersonInformation a{
+    color:#fff!important;
+}
+#MessageAppBackToMessagesLink{
+    color:rgba(255,255,255,.5)!important;
+}
+#MessageAppBackToMessagesLink svg, #MessageAppWriteMessage button svg{
+    fill:rgba(255,255,255,.5)!important;
+}
+#MessageAppPerson #MessageAppBackToMessagesLink:hover svg, #MessageAppWriteMessage button:hover svg{
+    fill:#fff!important;
+}
+#MessageAppBackToMessagesLink:hover{
+    color:rgba(255,255,255,1)!important;
+    background-color:rgba(255,255,255,.2)!important;
+}
+#MessageAppPerson{
+    background:#242424!important;
+    color:#fff!important;
+    border-bottom: 2px solid rgba(255,255,255,.2)!important;
+}
+#MessageAppWriteMessage{
+    background:#242424!important;
+    color:#fff!important;
+    border-top: 2px solid rgba(255,255,255,.2)!important;
+}
+#MessageAppWriteMessage textarea{
+    background:#242424!important;
+    color:#fff!important;
+}
+#MessageAppWriteMessage button{
+    background:#242424!important;
+}
+.ui__HaaEJ7__ZdUBmG{
+    filter:invert(1)!important;
+}
+#post #postContent #postContentItself h1{
+    color:#fff!important;
+}
+#smZal02{
+    color:rgba(255,255,255,.5);
+}
+#postRepliesLikesReposts, #postWriteReply{
+    background:#2b2b2b!important;
+}
+#repost #postAuthor{
+    border-top: 1px solid #333!important;
+}

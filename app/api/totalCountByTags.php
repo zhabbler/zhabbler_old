@@ -1,0 +1,1 @@
+<?=DB::Query("SELECT * FROM zhabs ORDER BY zhabID DESC", true, false, [])->zhabID;?>

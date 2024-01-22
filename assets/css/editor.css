@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{position: relative;font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;text-decoration-thickness: 1.5px!important;font-weight: 600;}
+.sidebar *, .loader, .loader *{font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif!important;font-weight: 600!important;}
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#fff;
+    background-color: #666;
+    height: 100vh;
+    position: fixed;
+    z-index: 4096;
+    width: 100vw;
+}
+@keyframes rotation {
+    100% { transform: rotate(360deg); } 
+}
+.loader .zhabblerLogoLoader{
+    animation: rotation 4s linear infinite;
+    color:#fff;
+    margin-bottom: 2em;
+}
+.loader .zhabblerLogoLoader::before{
+    color:#fff;
+    content:"ж";
+    font-size: 128px;
+    font-weight: 900;
+    overflow: hidden;
+    line-height: 44px;
+    display: block;
+    height: 100px;
+    font-family: "Roboto Slab";
+}
+.sidebar{
+    /* min-width: 300px; */
+    height: 100vh;
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    z-index: 1024;
+    transition: width .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.sidebar .sidebarTitle{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+    text-align: center;
+}
+.sidebar .sidebarElement{
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    color:#ccc;
+    cursor: pointer;
+    border: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    font-size: 14px;
+    text-align: left!important;
+}
+.sidebar .sidebarElement .sidebarElementSVGicon{
+    margin-left: auto;
+}
+.sidebar .sidebarElement .sidebarElementSVGicon svg{
+    width: 24px;
+    fill:#ccc;
+}
+.sidebar .sidebarElement:hover{
+    color:#fff;
+    background-color: #444;
+}
+.sidebar .sidebarElement:hover .sidebarElementSVGicon svg{
+    fill:#fff;
+}
+#pgitself{
+    transition: margin .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 300px;
+    height: 100vh;
+}
+.minCodeEditor{
+    min-width: -webkit-fill-available;
+    min-width: -moz-available;
+    min-width: fill-available;
+    overflow: auto;
+    height: calc(100vh - 160px);
+    background-color: #222;
+    color:#fff;
+    outline: 0;
+    border: none;
+    resize: none;
+    /* margin: 0; */
+    margin: 0px;
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: scroll;
+    padding: 5px;
+    display: block;
+    font-family: monospace!important;
+    font-weight: normal!important;
+}
+#pgitself iframe{
+    width: 100%;
+    height: 100%;
+}
+.sidebarInput{
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    color:#fff;
+    outline: 0;
+    border: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    font-size: 14px;
+    text-align: left!important;
+}
+hr{
+    background-color: #999;
+    height: 2px;
+    margin:0;
+    border:0;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.error{
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    background-color: #ff3d3d;
+    border-radius: 2px;
+    color:#fff;
+    text-align: center;
+    padding: 15px;
+    min-width: 230px;
+    font-size: 16px;
+    font-weight: normal!important;
+    z-index: 8096;
+    animation: fadeIn .5s;
+}
+.success{
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    background-color: #23c564;
+    border-radius: 2px;
+    color:#fff;
+    text-align: center;
+    padding: 15px;
+    min-width: 230px;
+    font-size: 16px;
+    font-weight: normal!important;
+    z-index: 8096;
+    animation: fadeIn .5s;
+}
+textarea.sidebarInput{
+    height: 200px;
+    resize: none;
+    padding: 1em;
+}

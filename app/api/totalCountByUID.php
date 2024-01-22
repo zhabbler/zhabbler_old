@@ -1,0 +1,1 @@
+<?=DB::Query("SELECT * FROM zhabs WHERE zhabBy = :uid ORDER BY zhabID DESC", true, false, [":uid" => $_POST['userid']])->zhabID;?>
